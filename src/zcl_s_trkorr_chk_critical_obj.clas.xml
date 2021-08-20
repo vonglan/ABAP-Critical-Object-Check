@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_S_TRKORR_CHK_CRITICAL_OBJ</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Kritische Objekte in Transporten erkennen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZS_DEV_CRIT_OBJ</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>Analysiere Abhängigkeiten (## - &amp;2 von &amp;3 Objekten analysiert)</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Analyse der Abhängigkeiten von Transport-Objekten beendet</ENTRY>
+     <LENGTH>120</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Initialisierung der Liste kritischer Objekte (aus dem Customizing)</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Bisher &amp;2 abhängige Objekte gefunden für &amp;1 ...</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Analysis of dependencies (## - &amp;2 of &amp;3 objects analysed)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Analysis of dependencies of transport objects finished</ENTRY>
+       <LENGTH>120</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Initializing list of critical objects (from customizing)</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>&amp;2 dependent objects found for &amp;1 so far ...</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Analyzing DDIC object dependencies (sunday transport necessary?)</ENTRY>
+       <LENGTH>130</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Analyzing method dependencies (sunday transport necessary?)</ENTRY>
+       <LENGTH>120</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Analysis critical objects (with dependencies) finished</ENTRY>
+       <LENGTH>120</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+    </item>
+   </I18N_LINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

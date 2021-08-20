@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Critical Object Check (import dumps)</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>-- Befunde für Objekt &amp;1 &amp;2 &amp;3:</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Prüfung auf potenzielle Transportprobleme (Sonntagstransport notwendig?)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Kann zu Abbrüchen führen, da in ca. &amp;1 anderen Entw.objekten verwendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Führt sehr wahrscheinl. zu Abbrüchen, da in ca. &amp;1 Entw.objekten verwend.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Nur FORMAT der PUBLIC SECT. geändert - Führt zu unnötigen MISMATCH Dumps</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>- Anmerkung: diese Meldungen verhindern nicht den Transport ins D1Q</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Führt sehr wahrscheinl. zu Abbrüchen, da in krit. Objekt &amp;1 &amp;2 verwendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;1 kann zu Abbrüchen führen, da es in &amp;2 anderen Paketen verwendet wird</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>&amp;1 führt sehr wahrscheinl. zu Abbrüchen, da in &amp;2 anderen Paketen verw.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Führt sehr wahrscheinl zu Abbrüchen, da in MEHR ALS &amp;1 Entw.obj. verwend</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>...</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Erlaubte Zeit überschritten (&amp;1 Minuten), Abbruch der Analyse</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>&amp;1 Fehler gefunden, Abbruch der Analyse</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Grenzwert muss mindestens so hoch sein wie Grenzwert für Fehler &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZS_DEV_CRIT_OBJ</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Für Details: Im &amp;1 Report ZS_TEST_CRIT_OBJ für &amp;2 starten</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZS_DEV_CRIT_OBJ012</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00025</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZS_DEV_CRIT_OBJ012</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bei der Freigabe von Transportaufgaben wird mit verschiedenen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Algorithmen abgeschätzt, ob die enthaltenen Entwicklungsobjekte beim</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Import ins Produktivsystem zu Abbrüchen führen können.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls Probleme erwartet werden, werden diese als Protokoll ausgegeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Freigabe des Transports ist dennoch möglich. Der spätere Import ins</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Produktivsystem kann jedoch durch die Basiskollegen nicht ohne weiteres</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>durchgeführt werden, sondern ist erstmal blockiert, und kann (falls es</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nicht sowieso ein Sonntagstransport ist) nur im Einzelfall nach</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Abstimmung mit Basis und Entwicklung aufgehoben werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Protokoll kann auch später mit SLG1 (Log-Objekt ZS_DEV) eingesehen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls möglich, transportieren Sie an einem Sonntag.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls nicht möglich, analysieren Sie die Probleme genauer, ob der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Algorithmus vielleicht unnötig ein Problem meldet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit dem Report ZS_TEST_CRIT_OBJ können Sie die Analyse erneut starten,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und bekommen im Anschluss an die Protokolldarstellung eine Listausgabe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mit Detailinformationen, welche Objekte betroffen sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Hier könnte z.B. ersichtlich sein, dass zwar Verwender in einigen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Paketen gefunden wurden, diese Pakete aber alle zum gleichen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Themenbereich gehören, und die Abbrüche daher nicht &quot;ausstrahlen&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sollten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ACHTUNG: Es handelt sich nur um eine automatische Prüfung!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Es ist keineswegs garantiert, dass alle problematischen Fälle erkannt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Bitte weiterhin auch selber nachdenken, ob ein Transportrisiko besteht.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZS_DEV_CRIT_OBJ012</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00023</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZS_DEV_CRIT_OBJ012</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Upon transport task release, the system checks (with various</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>algorithms)whether the development objects may lead to dumps when they</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are imported into the productive system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If problems are expected, they are display as application log.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Transport release is not blocked. However, the import into the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>productive system is blocked by default. This blocking (if it is not a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sunday transport anyway) can only be overruled by the Basis colleagues</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>after consultation with the development team.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The log can be displayed again using SLG1 (log object ZS_DEV)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If possible, transport on a sunday.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If not possible, analyse &quot;manually&quot; whether the algorithms might have</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>reported wrongly.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Using report ZS_TEST_CRIT_OBJ, you can perform the check again, and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>there is a list output, after you leave the log display, which shows in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>detail which affected objects have been identified.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Looking closer at this, you might discover - for example - that there</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are dependencies to other packages, but these all belong to the same</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>area, so Import Dumps might be limited to that area.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ATTENTION: This is only an automatic check!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>It is not at all guaranteed, that all problematic cases are detected!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Please use your &quot;common developer sense&quot; as you have done before this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>check was established, to think about possible disruptions of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>productive system.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZS_DEV_CRIT_OBJ021</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00013</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZS_DEV_CRIT_OBJ021</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Prüfung hat erkannt, dass die PUBLIC SECTION  der Klasse in ihrer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Formatierung (z.B. Groß/Kleinschreibung) geändert wurde, ohne dass ihr</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Coding inhaltlich verändert wurde. Dies kann z.B. unbeabsichtigt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>passieren, wenn die Klasse abwechselnd in der formularbasierten Ansicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(der SE24) und in der Quelltextansicht (in der SE24 oder in Eclipse)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>editiert wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Änderungen an der PUBLIC SECTION können zu MISMATCH Dumps beim Import in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ein anderes System führen (je nach Verwendung der Klasse, siehe ggf.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>andere Meldungen zu der Klasse). Dies ist in diesem Fall vermeidbar, da</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ja gar keine inhaltliche Änderung vorliegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn die Klasse viel verwendet wird, und ein Werktagstransport</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gewünscht ist, sollte die Formatierung der PUBLIC SECTION zurück auf die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vorige Version geändert werden.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZS_DEV_CRIT_OBJ021</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00012</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZS_DEV_CRIT_OBJ021</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The check found, that the PUBLIC SECTION of the class has been changed,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>but only its formatting (for example upper/lower case), not its actual</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>code content. This can happen inadvertently, if the class is edited</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>alternatingly in the form based editor (of the SE24) and the source code</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>based editor (SE24 or Eclipse).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Changes to the PUBLIC SECTION can lead to MISMATCH dumps when they are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>imported to a different system (depending on the usage of the class -</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>check if there are other messages regarding this class). These dumps are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>avoidable, because there is no actual code content change.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the class is used &quot;frequently&quot;, and you want to transport the changes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>during the week (not on a Sunday), revert back to the previous version</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the PUBLIC SECTION.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZS_DEV_CRIT_OBJ031</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZS_DEV_CRIT_OBJ031</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Aus Performance-Gründen wurde die Analyse nach einer bestimmten Anzahl</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefundener abhängiger Objekte eingestellt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dadurch werden abhängige kritische oder populäre Objekte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eventuell nicht erkannt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit Transaktion ZSTEST_CRIT_OBJ bzw. Report ZS_TEST_CRIT_OBJ können Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Analyse ohne die Begrenzung wiederholen, wenn Sie das komplette</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Resultat sehen möchten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZS_DEV_CRIT_OBJ031</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZS_DEV_CRIT_OBJ031</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>To save runtime, the analysis was stopped after a defined number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dependent objects had been found.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>As a result, dependent objects that might be critical or popular will</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>not be reported.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>With transaktion ZSTEST_CRIT_OBJ or report ZS_TEST_CRIT_OBJ, you can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>repeat the analysis without limit, if you want to see the full results.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
